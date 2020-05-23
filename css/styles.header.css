@@ -198,8 +198,7 @@ header {
   }
 
   .buttonHeader {
-    font-size: 1.6em;
-    padding: 0.4em;
+    font-size: 1em;
     border: 3px solid black;
   }
 }
