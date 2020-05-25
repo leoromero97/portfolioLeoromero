@@ -1,4 +1,5 @@
 @import 'styles.header.css';
+@import 'styles.about.css';
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Montserrat:wght@600&family=Varela&display=swap');
 
 body {
@@ -18,4 +19,11 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.stackingSlide {
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
