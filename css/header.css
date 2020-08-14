@@ -2,12 +2,13 @@ header {
   background-image: url(../img/backgroundHeader.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding: 20px 0;
 }
 
 .containerTitle {
@@ -29,7 +30,7 @@ header {
 
 @keyframes onNeon {
   100% {
-    text-shadow: 0 0 5px #1fb5cf, 0 0 10px #1fb5cf, 0 0 20px #1fb5cf, 0 0 30px #1fb5cf;
+    text-shadow: 0 0 4px #1fb5cf, 0 0 8px #1fb5cf, 0 0 14px #1fb5cf, 0 0 30px #1fb5cf;
   }
 }
 
@@ -113,6 +114,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 10px;
 }
 
 .buttonNeon {
@@ -212,6 +214,7 @@ header {
 @media screen and (min-width:768px) {
   .title {
     font-size: 66px;
+    padding-bottom: 20px;
   }
 
   .containerPhotoPerfil {
