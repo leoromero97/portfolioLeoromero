@@ -4,56 +4,441 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio Web Oficial de Leonardo G. Romero">
+  <meta name="keywords" content="Developer Front End">
+  <meta name="author" content="Leonardo Gerbacio Romero">
   <title>Leonardo Gerbacio Romero</title>
-  <link rel="stylesheet" type="text/css" href="./css/main.styles.css">
+  <link rel="shortcut icon" href="./img/Logo Rosa Romero.svg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 
 <body>
   <header class="stackingSlide">
-    <div class="containerTitleHeader">
+    <div class="containerTitle">
       <h1 class="title">
         < BIENVENIDOS />
       </h1>
     </div>
-    <div class="containerPhoto">
-      <img src="img/fotoPerfil.jpg" alt="foto de perfil" class="photoPerfil">
+    <div class="containerPhotoPerfil">
+      <img src="img/fotoPerfil.jpg" alt="Foto de perfil" class="photoPerfil">
     </div>
     <div class="containerHolder">
-      <div class="placeHolder">Leonardo Gerbacio</div>
+      <div class="placeHolder">Leonardo G. Romero</div>
       <div class="placeHolder"> Front End Developer</div>
       <div class="placeHolder"> Systems Analyst</div>
     </div>
     <div class="containerButtonHeader">
-      <a href="#about" class="buttonHeader">ENTRAR</a>
+      <a href="#about" class="buttonNeon">
+        <span id="span1"></span>
+        <span id="span3"></span>
+        <span id="span4"></span> ENTRAR</a>
     </div>
   </header>
   <main role="main">
     <section id="about" class="stackingSlide">
-      <h1>About Me</h1>
-      <p>Mi nombre es Leonardo Esteban, Gerbacio Romero. Si <strong>Gerbacio</strong> es apellido. Soy un argentino que
-        vive en CABA, de 23 años y a continuacion te voy a contar más sobre mi</p>
-      <p>Me gusta mucho el deporte pero sobre todo jugar y ver fútbol, entrenar o hacer
-        ejercicios.</p>
-      <p>Me gusta tocar el piano y escuchar música de cualquier género, desde salsa hasta reggeaton.</p>
-      <p>Me gusta mejorar lo que sé y aprender tecnologías nuevas, culturas nuevas, comidas nuevas. Me encantaría viajar
-        y conocer distintos países</p>
-      <p>Me gusta la tecnología, la informática, y el desarrollo de software. Personalmente pienso que la
-        rama de la tecnología es un mundo hermoso y muy amplio, está en todos lados. Creo firmemente que es el presente
-        y futuro que puede ayudar al ser humano, que puede cuidar el mundo y que puede resolver la gran mayoria de
-        problematicas que existe en la sociedad.</p>
-      <p>Actualmente estoy cursando el segundo año de Analista de Sistemas Infórmaticos.</p>
-      <p>Hace 5 años trabajo de cadete, siempre de motoquero. Hace menos de 2 años fundé mi propia PyME, "Mensajería
-        Leo". Esto quiere decir que me comunico permanentemente con los clientes, realizo los envíos, emito facturas,
-        tomo un control de los viajes realizados utilizando archivos xls. Me gusta tener todo bien organizado y
-        controlado para un mejor rendimiento</p>
-      <p>Tengo más de 20 clientes diferentes que confían plenamente en mis servicios. Mi objetivo es crecer aun más.</p>
-      <p>Otro objetivo claro que tengo es poder trabajar en una empresa IT, precisamente en el area de desarrollo front
-        end. Donde pueda aportar mis conocimientos. Donde pueda crecer como persona y profesionalmente. Donde pueda
-        tener desafíos interesantes.</p>
-
+      <div class="containerTitle">
+        <h1 class="title">
+          < SOBRE MÍ />
+        </h1>
+      </div>
+      <div>
+        <p>Mi nombre es Leonardo Esteban, Gerbacio Romero, sí <strong>Gerbacio</strong> es apellido, vivo en CABA, tengo
+          23 años.
+          Actualmente estoy cursando el segundo año de Analista de Sistemas Informáticos. y a continuación te voy a
+          contar
+          más sobre mi..</p>
+      </div>
+      <div>
+        <p>Me gusta mucho el deporte, jugar fútbol, entrenar o hacer ejercicios. Me gusta tocar el piano y escuchar
+          música
+          de cualquier género, desde salsa hasta reggeaton. Me gusta mejorar lo que sé y aprender tecnologías nuevas,
+          culturas nuevas, comidas nuevas. Me encantaría viajar y conocer distintos países.</p>
+      </div>
+      <div>
+        <p>Me gusta trabajar en equipo, el desarrollo del software y la tecnología, personalmente pienso que es un mundo
+          hermoso, muy
+          amplio,
+          está en todo y en todos lados. Creo firmemente que es el presente y futuro que puede ayudar al ser humano, que
+          puede cuidar el mundo y resolver la gran mayoría de problemáticas que existen en la sociedad.</p>
+      </div>
+      <div>
+        <p>Hace 5 años trabajo de cadete, siempre de motoquero. Hace menos de 2 años soy monotributista y estoy
+          encaminado
+          a fundar mi propia PyME. Me comunico con clientes, realizo los envíos, emito facturas, tomo un control y
+          gestión
+          de los viajes realizados utilizando archivos xls.</p>
+      </div>
+      <div>
+        <p>Soy de tener todo bien organizado y controlado para un mejor rendimiento, y una mayor optimización en mis
+          tareas. Tengo más de 20 clientes diferentes que confían plenamente en mis servicios. Uno de mis objetivos es
+          que
+          la PyME pueda crecer aún más.</p>
+      </div>
+      <div>
+        <p>Otro objetivo claro que tengo es poder trabajar en una empresa IT, en el área de desarrollo front end o en el
+          área de análisis de datos. Donde pueda aportar mis conocimientos. Donde pueda crecer como persona,
+          profesionalmente y sobre todo donde pueda tener desafíos interesantes.</p>
+      </div>
     </section>
 
+    <section id="studies">
+      <div class="containerTitle">
+        <h1 class="title">
+          < ESTUDIOS />
+        </h1>
+      </div>
+      <!-- Cuatro tarjetas de mis estudios académicos y cursos, secundaria, terciario, hack the gap y sql inicial. Cada
+        tarjeta va a tener el título, Foto del instituto relacionado, link de los lugares, y una descripción de lo que
+        aprendí-->
+      <div>
+        <h2>Nivel Superior</h2>
+        <h3>Instituto Cristo Obrero</h3><img src="" alt="">
+        <p></p><a href=""></a>
+      </div>
+      <div>
+        <h2>SQL Inicial</h2>
+        <h3>Quales Group</h3><img src="" alt="">
+        <p></p><a href=""></a>
+      </div>
+      <div>
+        <h2>Hack The Gap</h2>
+        <h3>Wolox</h3><img src="" alt="">
+        <p></p><a href=""></a>
+      </div>
+      <div>
+        <h2>Nivel Medio</h2>
+        <h3>Domingo F. Sarmiento DE1 N2</h3><img src="" alt="">
+        <p></p><a href=""></a>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="containerTitle">
+        <h1 class="title">
+          < PROYECTOS />
+        </h1>
+      </div>
+      <!--Carrusel de bloques con tarjetas con todos mis proyectos, también puede ser un scroll horizontal. Cada bloque va a
+      contener una tarjeta con el nombre las imágenes de cómo se ven en pc y en celular, las tecnologías que se usaron,
+      y el link para verlas o el link de descarga(visual basic y lenguaje C)-->
+      <div> CONTENEDOR DEL CARRUSEL
+        <div>
+          <h2>Rosa Romero Masajes y Estética</h2>
+          <p>HTML, CSS, JAVASCRIPT, Illustrator</p> <img src="" alt=""><img src="" alt="">
+        </div>
+        <div>
+          <h2>My Adventure</h2>
+          <p>HTML, CSS, JAVASCRIPT</p> <img src="" alt=""><img src="" alt="">
+        </div>
+        <div>
+          <h2>MemoTest</h2>
+          <p>HTML, CSS, JAVASCRIPT</p> <img src="" alt=""><img src="" alt="">
+        </div>
+        <div>
+          <h2>Yo Soy</h2>
+          <p>REACT JS, SASS, JAVASCRIPT</p> <img src="" alt=""><img src="" alt="">
+        </div>
+        <div>
+          <h2>Gestor de Contraseñas VS</h2>
+          <p>Visual Basic</p> <img src="" alt=""><img src="" alt="">
+        </div>
+        <div>
+          <h2>Estimador de precios | Moto Mnesajería Leo</h2>
+          <p>Visual Basic</p> <img src="" alt=""><img src="" alt="">
+        </div>
+        <div>
+          <h2>Descuentos tienda de Ropa</h2>
+          <p>Lenguaje de programación C</p> <img src="" alt=""><img src="" alt="">
+        </div>
+      </div>
+
+    </section>
+    <section id="skills">
+      <!--Technologies / Tools / Soft Skills
+      Va a tener 3 botones, cada botón indica lo que se quiere ver. Se ven cuadrados con el nombre de la tecnología,
+      herramienta o habilidad blanda, puede tener o no una barra de porcentaje que indica cuánto se del tema. Cuando
+      haces click en el cuadrado se queda fijo para mostrar un mensaje, el mensaje sería “Que tengas un lindo día !!!
+      Gracias por ver mi página personal :)” “Todos los días se aprende algo” y “Que tus sueños sean más grandes que tus
+      miedos” -->
+      <div class="containerTitle">
+        <h1 class="title">
+          < TECNOLOGÍAS />
+        </h1>
+      </div>
+      <div class="promotionsGallery">
+        <div class="card">
+          <div class="front">
+            <h3>HTML</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>Gracias</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <h3>CSS</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>por</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>SASS</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>visitar</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>JavaScript</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>mi</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>React Js</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>página</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <h3>SQL Express</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>personal :)</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>Lenguaje C</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>Emoji de carita sonriendo</p>
+          </div>
+        </div>
+      </div>
+      <!--ACA PODRIA IR UN DIV QUE CONTENGA TODO ESTE BLOQUE DE HERRAMIENTAS-->
+      <div class="containerTitle">
+        <h1 class="title">
+          < HERRAMIENTAS />
+        </h1>
+      </div>
+      <div class="promotionsGallery">
+        <div class="card">
+          <div class="front">
+            <h3>GitHub</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>Que</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <h3>Visual Studio Code</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>tengas</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>Visual Studio Managament</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>un</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>Figma</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>lindo</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>Trello</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>día</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="front">
+            <h3>Visual Basic</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>emoji sonriendo</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <h3>Adobe Illustrator</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>Emoji de sol</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <h3>Google Apps</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>emoji</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <h3>Slack</h3>
+            <input type="range"> 80%
+            <a href="">click</a>
+          </div>
+          <div class="back">
+            <p>emoji</p>
+          </div>
+
+          <div class="card">
+            <div class="front">
+              <h3>Zoom | Hangoust | Google Meet | GoToMeeting</h3>
+              <input type="range"> 80%
+              <a href="">click</a>
+            </div>
+            <div class="back">
+              <p>emoji</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+    <section id="recommendations">
+      <!--Recommendations
+      Cuatro tarjetas con la foto, nombre, apellido, puesto o cargo, y una breve descripción hacia mi persona de: andrés
+      ferreyra, enrique mejia, carolina ico y marina santoro -->
+      <div class="containerTitle">
+        <h1 class="title">
+          < RECOMENDACIONES />
+        </h1>
+      </div>
+      <div>
+        <div><img src="" alt="">
+          <h2>Enrique Mejia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni similique nulla non iure labore eveniet
+            reprehenderit molestias ducimus debitis ipsam aspernatur in nam voluptatem voluptatum, mollitia voluptates.
+            Quaerat, quae aliquam!</p>
+        </div>
+        <div><img src="" alt="">
+          <h2>Carolina</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni similique nulla non iure labore eveniet
+            reprehenderit molestias ducimus debitis ipsam aspernatur in nam voluptatem voluptatum, mollitia voluptates.
+            Quaerat, quae aliquam!</p>
+        </div>
+        <div><img src="" alt="">
+          <h2>Andres Ferreyra</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni similique nulla non iure labore eveniet
+            reprehenderit molestias ducimus debitis ipsam aspernatur in nam voluptatem voluptatum, mollitia voluptates.
+            Quaerat, quae aliquam!</p>
+        </div>
+        <div><img src="" alt="">
+          <h2>Marina Santoro</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni similique nulla non iure labore eveniet
+            reprehenderit molestias ducimus debitis ipsam aspernatur in nam voluptatem voluptatum, mollitia voluptates.
+            Quaerat, quae aliquam!</p>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer id="footer" class="footer">
+    <!--Contact
+    Un formulario con nombre apellido, mail, un campo para un mensaje y el botón de enviar. Un botón de descarga de cv,
+    un botón de wpp y un botón a linkedin
+    Copyright C 2020 todos los derechos reservados Leonardo G. Romero-->
+    <div class="contenedorFooter">
+      <div class="containerTitle">
+        <h1 class="title">
+          < CONTACTAME />
+        </h1>
+      </div>
+      <div class="contentenidoFooter">
+        <form action="" method="get">
+          <div class="redes">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="text" placeholder="Mail">
+            <input type="textarea" placeholder="Deja tu mensaje">
+            <input type="button" value="ENVIAR">
+          </div>
+        </form>
+      </div>
+      <div class="contentenidoFooter">
+        <div class="redes">
+          <a href="">DESCARGAR CV</a>
+          <a href="https://api.whatsapp.com/send?phone=541152212488&text=Hola Leo, me comunico con vos porque"
+            class="contentWpp" target="blanck">
+            <img src="./img/whatsapp.svg" alt="WhatsApp" title="WhatsApp">
+            <p>+54 11 52212488</p>
+          </a>
+          <a href="https://www.linkedin.com/in/leonardogerbacioromero/" target="blanck">
+            <img src="./img/instagram.svg" alt="LinkedIn" title="LinkedIn">
+            <p>leonardogerbacioromero</p>
+          </a>
+          <a href="https://github.com/leoromero97" target="blanck">
+            <img src="./img/instagram.svg" alt="GitHub" title="GitHub">
+            <p>leoromero97</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="firma">&COPY; 2020. Leonardo Gerbacio Romero</p>
+  </footer>
 </body>
 
 </html>

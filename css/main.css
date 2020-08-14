@@ -1,6 +1,6 @@
-@import 'styles.header.css';
-@import 'styles.about.css';
-@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Montserrat:wght@600&family=Varela&display=swap');
+@import 'reset.css';
+@import 'header.css';
+@import 'about.css';
 
 body {
   margin: 0;
@@ -27,3 +27,24 @@ html {
   position: sticky;
   top: 0;
 }
+
+/* codigo para que aparezca desde abajo 
+@keyframes appearUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+}
+
+animation: appearUp 3s ease-in;
+-webkit-animation: appearUp 3s ease-in;
+*/

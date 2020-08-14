@@ -1,0 +1,234 @@
+header {
+  background-image: url(../img/backgroundHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: appear 0.5s ease-in;
+  -webkit-animation: appear 0.5s ease-in;
+  margin: 20px 0;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff9f9;
+  animation: onNeon 10s infinite ease-out;
+  -webkit-animation: onNeon 10s infinite ease-out;
+}
+
+@keyframes onNeon {
+  100% {
+    text-shadow: 0 0 5px #1fb5cf, 0 0 10px #1fb5cf, 0 0 20px #1fb5cf, 0 0 30px #1fb5cf;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(900px);
+    transform: translateX(900px);
+    -moz-transform: translateX(900px);
+    -ms-transform: translateX(900px);
+    -o-transform: translateX(900px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+}
+
+.containerPhotoPerfil {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: appear 1s ease-in;
+  -webkit-animation: appear 1s ease-in;
+}
+
+.photoPerfil {
+  height: 100%;
+  border: 1.6px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.containerHolder {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.placeHolder {
+  font-size: 16px;
+  color: #fff9f9;
+  border: black 1px solid;
+  text-align: center;
+  padding: 6px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  box-shadow: 0px 20px 20px black;
+  background-color: #00000042;
+  animation: appear 1.5s ease-in;
+  -webkit-animation: appear 1.5s ease-in;
+  width: 200px;
+}
+
+.placeHolder:nth-child(2) {
+  animation: appear 2s ease-in;
+  -webkit-animation: appear 2s ease-in;
+}
+
+.placeHolder:nth-child(3) {
+  animation: appear 2.5s ease-in;
+  -webkit-animation: appear 2.5s ease-in;
+}
+
+.containerButtonHeader {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonNeon {
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 6px 10px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  animation: appear 3s ease-in;
+  -webkit-animation: appear 3s ease-in;
+}
+
+.buttonNeon:hover {
+  background: #1fb5cf;
+  box-shadow: 0 0 5px #1fb5cf, 0 0 10px #1fb5cf, 0 0 20px #1fb5cf;
+  transition-delay: 0.4s;
+  transform: translateY(-6px);
+  -webkit-transform: translateY(-6px);
+  -moz-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  -o-transform: translateY(-6px);
+  color: black;
+}
+
+.buttonNeon span {
+  position: absolute;
+  display: block;
+}
+
+#span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #1fb5cf);
+}
+
+.buttonNeon:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition-delay: 0, 5s;
+}
+
+
+#span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #1fb5cf);
+}
+
+.buttonNeon:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition-delay: 0, 75s;
+}
+
+@media screen and (min-width:480px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .containerPhotoPerfil {
+    height: 160px;
+  }
+
+  .placeHolder {
+    width: 300px;
+  }
+
+  .placeHolder {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .buttonNeon {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .title {
+    font-size: 66px;
+  }
+
+  .containerPhotoPerfil {
+    height: 180px;
+  }
+
+  .placeHolder {
+    width: 400px;
+  }
+
+  .placeHolder {
+    font-size: 24px;
+    padding: 12px;
+  }
+
+  .buttonNeon {
+    padding: 15px 30px;
+    font-size: 24px;
+  }
+}
