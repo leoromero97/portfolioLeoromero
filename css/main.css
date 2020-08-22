@@ -1,18 +1,23 @@
 @import 'reset.css';
 @import 'header.css';
 @import 'about.css';
+@import 'studies.css';
+
+/*color white: #f1f1f1;
+color black: #1b1c1e;*/
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1b1c1e;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  background: -webkit-linear-gradient(to bottom, #434343, #1b1c1e);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000);
+  background: linear-gradient(to bottom, #434343, #1b1c1e);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Montserrat', sans-serif;
+  color: #1b1c1e;
 }
 
 html {
