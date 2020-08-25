@@ -112,6 +112,8 @@
 
 .containerButtons .buttonNeon:nth-child(1) {
   background-color: #0000005d;
+  z-index: 1;
+  width: auto;
 }
 
 
@@ -130,6 +132,7 @@
 .containerButtons .buttonNeon:nth-child(1) span {
   position: absolute;
   display: block;
+  z-index: -1;
 }
 
 @media screen and (min-width:480px) {
