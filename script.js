@@ -1,6 +1,6 @@
 //SCRIPT PARA EL SLIDER SHOW
 let slider = document.querySelector(".slideShow");
-let sliderIndividual = document.querySelectorAll(".slide");//slide es mySlides
+let sliderIndividual = document.querySelectorAll(".slide"); //slide es mySlides
 let contador = 1;
 let width = sliderIndividual[0].clientWidth; //es para calcular el ancho del primer slider
 
@@ -44,8 +44,7 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slideSkills");
   var dots = document.getElementsByClassName("state");
-  var stateNot = document.getElementsByClassName("stateNot");
-  
+
   if (n > slides.length) {
     slideIndex = 1
   }
@@ -61,3 +60,32 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "flex";
   dots[slideIndex - 1].className += " activeDot";
 }
+
+//---------Seccion Recomendations-----//
+let persona = document.querySelector(".person");
+let testimonio = document.querySelector(".testimony");
+persona.addEventListener('click', function(){
+    persona.classList.toggle('active');
+    testimonio.classList.toggle('active');
+})
+
+let marinaP = document.querySelector(".marinaP");
+let marinaT = document.querySelector(".marinaT");
+marinaP.addEventListener('click', function(){
+  marinaP.classList.toggle('active');
+  marinaT.classList.toggle('active');
+})
+
+let andresP = document.querySelector(".andresP");
+let andresT = document.querySelector(".andresT");
+andresP.addEventListener('click', function(){
+  andresP.classList.toggle('active');
+  andresT.classList.toggle('active');
+})
+
+let carolinaP = document.querySelector(".carolinaP");
+let carolinaT = document.querySelector(".carolinaT");
+carolinaP.addEventListener('click', function(){
+  carolinaP.classList.toggle('active');
+  carolinaT.classList.toggle('active');
+})

@@ -10,6 +10,7 @@
 }
 
 .containerSlider {
+  height: 170%;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -72,12 +73,12 @@
   }
 
   .slide a {
-    width: 70px;
+    width: 100px;
     font-size: 14px;
   }
 
   .slide a:hover {
-    width: 90px;
+    width: 110px;
   }
 
   .imgProject {
@@ -96,12 +97,12 @@
   }
 
   .slide a {
-    width: 80px;
     font-size: 20px;
+    width: 120px;
   }
 
   .slide a:hover {
-    width: 100px;
+    width: 130px;
   }
 
   .imgProject {

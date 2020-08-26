@@ -9,7 +9,7 @@
 }
 
 .title2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   color: #1b1c1e;
   animation: onNeon 10s infinite ease-out;
@@ -156,7 +156,7 @@
 
 @media screen and (min-width:768px) {
   .title2 {
-    font-size: 66px;
+    font-size: 56px;
     padding-bottom: 20px;
   }
 
@@ -176,11 +176,9 @@
   .headerTextTw p {
     font-size: 20px;
     line-height: 40px;
-
   }
 
   .containerButtons {
     width: 400px;
   }
-
 }
