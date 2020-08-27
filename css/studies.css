@@ -20,7 +20,7 @@
 
 .cardStudies {
   border: 1px solid #f1f1f1;
-  box-shadow: 0 0 5px #f1f1f1;
+  box-shadow: 0 0 10px black;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -99,10 +99,11 @@
 @media screen and (min-width:768px) {
   .containerCards {
     width: 100%;
+    height: 80%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 40px 0;
+    margin-bottom: 20px;
   }
 
   .cardStudies {
@@ -110,7 +111,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 350px;
-    height: 450px;
+    height: 460px;
     border: 2px solid #f1f1f1;
   }
 

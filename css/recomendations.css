@@ -6,7 +6,7 @@
   align-items: center;
   background-color: #f1f1f1;
   color: #1b1c1e;
-  padding: 16px 10px;
+  padding: 10px 10px;
 }
 
 .mainContainerTestimonys {
@@ -91,7 +91,7 @@
 
 .person {
   width: 200px;
-  height: 60px;
+  height: 62px;
   overflow: hidden;
   background-color: #f1f1f1;
   display: flex;
@@ -107,7 +107,6 @@
   -ms-transition: transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
 }
-
 
 .person:hover {
   box-shadow: 0 0 12px #1b1c1e;

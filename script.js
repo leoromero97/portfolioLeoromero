@@ -25,67 +25,46 @@ function slides() {
     }, 2000)
   }
 }
+//---------Seccion Skills-----//
+let skills = document.querySelector(".skills");
+let skillsList = document.querySelector(".skillsList");
+skills.addEventListener('click', function () {
+  skills.classList.toggle('active');
+  skillsList.classList.toggle('active');
+})
 
-
-//A partir de esta linea empieza el script para el slider show del banner
-var slideIndex = 1;
-var myTimer;
-
-//Controla la slide actual y resetea el intervalo si es necesario
-function currentSlide(n) {
-  clearInterval(myTimer);
-  myTimer = setInterval(function () {
-    plusSlides(n + 1)
-  }, 6000);
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slideSkills");
-  var dots = document.getElementsByClassName("state");
-
-  if (n > slides.length) {
-    slideIndex = 1
-  }
-  if (n < 1) {
-    slideIndex = slides.length
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" activeDot", "");
-  }
-  slides[slideIndex - 1].style.display = "flex";
-  dots[slideIndex - 1].className += " activeDot";
-}
+let tools = document.querySelector(".tools");
+let toolsList = document.querySelector(".toolsList");
+tools.addEventListener('click', function () {
+  tools.classList.toggle('active');
+  toolsList.classList.toggle('active');
+})
 
 //---------Seccion Recomendations-----//
 let persona = document.querySelector(".person");
 let testimonio = document.querySelector(".testimony");
-persona.addEventListener('click', function(){
-    persona.classList.toggle('active');
-    testimonio.classList.toggle('active');
+persona.addEventListener('click', function () {
+  persona.classList.toggle('active');
+  testimonio.classList.toggle('active');
 })
 
 let marinaP = document.querySelector(".marinaP");
 let marinaT = document.querySelector(".marinaT");
-marinaP.addEventListener('click', function(){
+marinaP.addEventListener('click', function () {
   marinaP.classList.toggle('active');
   marinaT.classList.toggle('active');
 })
 
 let andresP = document.querySelector(".andresP");
 let andresT = document.querySelector(".andresT");
-andresP.addEventListener('click', function(){
+andresP.addEventListener('click', function () {
   andresP.classList.toggle('active');
   andresT.classList.toggle('active');
 })
 
 let carolinaP = document.querySelector(".carolinaP");
 let carolinaT = document.querySelector(".carolinaT");
-carolinaP.addEventListener('click', function(){
+carolinaP.addEventListener('click', function () {
   carolinaP.classList.toggle('active');
   carolinaT.classList.toggle('active');
 })
