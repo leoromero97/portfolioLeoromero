@@ -49,6 +49,11 @@
   width: 260px;
 }
 
+.imgProject2 {
+  height: 180px;
+  width: 120px;
+}
+
 .slide a {
   color: #1b1c1e;
   border: 2px solid #1b1c1e;
@@ -83,9 +88,15 @@
   }
 
   .imgProject {
-    height: 400px;
-    width: 550px;
+    height: 300px;
+    width: 450px;
   }
+
+  .imgProject2 {
+    height: 200px;
+    width: 140px;
+  }
+
 }
 
 @media screen and (min-width:768px) {
@@ -107,7 +118,12 @@
   }
 
   .imgProject {
-    height: 450px;
-    width: 650px;
+    height: 350px;
+    width: 560px;
+  }
+
+  .imgProject2 {
+    height: 350px;
+    width: 200px;
   }
 }
