@@ -61,7 +61,12 @@
   transition: all 0.3s ease 1s;
 }
 
-.testimony li h3,
+.testimony li a {
+  text-decoration: none;
+  color: #1b1c1e;
+}
+
+.testimony li a,
 .close h3,
 .send h3 {
   font-size: 16px;
@@ -225,7 +230,7 @@
     height: 50px;
   }
 
-  .testimony li h3,
+  .testimony li a,
   .close h3,
   .send h3 {
     font-size: 20px;
@@ -249,7 +254,7 @@
 @media screen and (min-width:768px) {
   .testimony.active {
     width: 600px;
-    height: 220px;
+    height: 260px;
     transform: translate(50%, 0%);
     -webkit-transform: translate(50%, 0%);
     -moz-transform: translate(50%, 0%);
@@ -258,11 +263,12 @@
   }
 
   .person {
-    width: 300px;
+    width: 320px;
     height: 140px;
   }
 
   .person.active {
+    text-align: center;
     height: 180px;
     transition-delay: 0.3s;
     transform: translate(-50%, 0%);
@@ -273,11 +279,25 @@
   }
 
   .testimony li img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 80px;
   }
 
-  .testimony li h3,
+  .testimony li a:hover {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+    font-weight: bold;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+
+  .testimony li a,
   .close h3,
   .send h3 {
     font-size: 22px;
