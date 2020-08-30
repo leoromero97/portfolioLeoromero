@@ -53,7 +53,7 @@
 }
 
 .contentCard1 {
-  height: 90%;
+  height: 60%;
   width: 34%;
   padding: 4px;
   justify-content: space-evenly;
@@ -66,6 +66,11 @@
 
 .contentCard2 h2 {
   margin-bottom: 10px;
+}
+
+.imgStudies {
+  height: 44%;
+  width: 22%;
 }
 
 .contentCard2 p {

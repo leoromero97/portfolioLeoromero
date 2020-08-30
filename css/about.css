@@ -25,11 +25,14 @@
 }
 
 .containerTextTw {
-  border-bottom: 0.4px solid #1b1c1e65;
+  border-bottom: 0.4px solid #1b1c1e60;
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: auto;
+  flex-shrink: 0;
   margin: 4px;
+  padding-bottom: 10px;
 }
 
 .headerTextTw {
@@ -129,11 +132,6 @@
   -o-transform: translateY(-6px);
 }
 
-.containerButtons .buttonNeon:nth-child(1) span {
-  position: absolute;
-  display: block;
-  z-index: -1;
-}
 
 @media screen and (min-width:480px) {
   .title2 {
