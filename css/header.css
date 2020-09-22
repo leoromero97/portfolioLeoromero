@@ -3,6 +3,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  width: 100%;
   height: 100vh;
   margin: auto;
   display: flex;
@@ -123,7 +124,6 @@ header {
   background: black;
   color: #f1f1f1;
   font-size: 16px;
-  padding: 10px 20px;
   letter-spacing: 2px;
   text-decoration: none;
   overflow: hidden;
@@ -135,57 +135,11 @@ header {
   animation: appear 3s ease-in;
   -webkit-animation: appear 3s ease-in;
   text-align: center;
-}
-
-.buttonNeon:hover {
-  background: #1fb5cf;
-  box-shadow: 0 0 5px #1fb5cf85, 0 0 10px #1fb5cf85, 0 0 20px #1fb5cf85;
-  transition-delay: 0.4s;
-  transform: translateY(-6px);
-  -webkit-transform: translateY(-6px);
-  -moz-transform: translateY(-6px);
-  -ms-transform: translateY(-6px);
-  -o-transform: translateY(-6px);
-  color: black;
-}
-
-.buttonNeon span {
-  position: absolute;
-  display: block;
-}
-
-#span3 {
-  bottom: 0;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #1fb5cf);
-}
-
-.buttonNeon:hover #span3 {
-  right: 100%;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-  transition-delay: 0, 5s;
-}
-
-#span4 {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #1fb5cf);
-}
-
-.buttonNeon:hover #span4 {
-  bottom: 100%;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-  transition-delay: 0, 75s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 40px;
 }
 
 @media screen and (min-width:480px) {
@@ -208,7 +162,10 @@ header {
 
   .buttonNeon {
     font-size: 18px;
+    width: 120px;
+    height: 50px;
   }
+
 }
 
 @media screen and (min-width:768px) {
@@ -233,10 +190,18 @@ header {
   .buttonNeon {
     padding: 15px 30px;
     font-size: 24px;
+    width: 150px;
   }
 
-  #span3 {
-    right: -100%;
-    width: 100%;
+  .buttonNeon:hover {
+    background: #1fb5cf;
+    box-shadow: 0 0 5px #1fb5cf85, 0 0 10px #1fb5cf85, 0 0 20px #1fb5cf85;
+    transition-delay: 0.1s;
+    transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+    color: black;
   }
 }
